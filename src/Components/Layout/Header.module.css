@@ -27,3 +27,14 @@
     object-fit: cover;
     transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
   }
+  @media screen and (max-width: 500px){
+    .header{
+      display: flex;
+      justify-content: center;
+    }
+.header>h2{
+  display: none;
+
+}
+    
+  }
